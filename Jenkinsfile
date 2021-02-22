@@ -1,6 +1,6 @@
 node('Application') {
   def app_name = "ecommerce-web"
-  def git_url = "git@github.com:athomic-tech/athomic-web.git"
+  def git_url = "git@github.com:matheuSantos-me/just.git"
 
   stage('Clone Repository') {
     git branch: 'master',
